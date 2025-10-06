@@ -1,4 +1,4 @@
-# Présnetation de WorlDigital
+# Présentation de WorlDigital
 
 ## 📋 Description du Projet
 WorlDigital est un site web moderne et responsive qui regroupe les dernières actualités dans quatre domaines principaux :
