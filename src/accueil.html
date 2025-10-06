@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Métadonnées de base -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldigital - Accueil</title>
+    
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Polices Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icônes Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- ========== EN-TÊTE ========== -->
+    <header>
+        <!-- Logo -->
+        <h1>Worldigital</h1>
+        
+        <!-- Navigation principale -->
+        <nav>
+            <ul>
+                <li><a href="accueil.html" class="active">Accueil</a></li>
+                <li><a href="musique.html">Musique</a></li>
+                <li><a href="sport.html">Sport</a></li>
+                <li><a href="jeux-vidéos.html">Jeux-Vidéos</a></li>
+                <li><a href="monde.html">Actu Mondiale</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Barre de recherche - Version fonctionnelle -->
+	<div class="search-container">
+    <form id="search-form" class="search-bar">
+        <input type="text" id="search-input" 
+               placeholder="Rechercher..." 
+               autocomplete="off">
+        <button type="submit"><i class="fas fa-search"></i></button>
+        <div class="search-results" id="search-results"></div>
+    </form>
+</div>
+		
+		
+		
+		
+		
+    </header>
+
+    <!-- ========== SLIDER D'IMAGES ========== -->
+    <div class="slider-container">
+        <div class="slider">
+            <!-- Chaque image est dans un lien cliquable -->
+            <div class="slides">
+                <!-- Slide 1 - Redirige vers musique.html -->
+                <a href="musique.html" class="slide-link">
+                    <img src="images/V.jpg" alt="Nouvel Album">
+                </a>
+                
+                <!-- Slide 2 - Redirige vers sport.html -->
+                <a href="sport.html" class="slide-link">
+                    <img src="images/topuria-makhachev.jpg" alt="Combat de l'Année">
+                </a>
+                
+                <!-- Slide 3 - Redirige vers jeux-vidéos.html -->
+                <a href="jeux-vidéos.html" class="slide-link">
+                    <img src="images/MC maj.jpg" alt="Maj du jeu">
+                </a>
+                
+                <!-- Slide 4 - Redirige vers monde.html -->
+                <a href="monde.html" class="slide-link">
+                    <img src="images/om crise.webp" alt="Crise Sportive">
+                </a>
+            </div>
+            
+            <!-- Boutons de navigation -->
+            <button class="prev" aria-label="Image précédente">◀</button>
+            <button class="next" aria-label="Image suivante">▶</button>
+            
+            <!-- Indicateurs de position (points) -->
+            <div class="dots"></div>
+        </div>
+    </div>
+
+    <!-- ========== CONTENU PRINCIPAL ========== -->
+    <main>
+        <!-- Section d'introduction -->
+        <section id="accueil">
+            <h2>Bienvenue sur Worldigital</h2>
+            <p>Votre source d'actualités sur la musique, le sport, les jeux-vidéos et l'actualité mondiale.</p>
+        </section>
+
+        <!-- ===== CARTES DE CATÉGORIES ===== -->
+        <section id="categories">
+            <!-- Carte Musique -->
+            <a href="musique.html" class="category-card">
+                <img src="images/musical-note.png" alt="Musique">
+                <h3>Musique</h3>
+                <p>Découvrez les dernières actualités musicales.</p>
+            </a>
+            
+            <!-- Carte Sport -->
+            <a href="sport.html" class="category-card">
+                <img src="images/balls.png" alt="Sport">
+                <h3>Sport</h3>
+                <p>Suivez les matchs et les rumeurs de transfert.</p>
+            </a>
+            
+            <!-- Carte Jeux-Vidéos -->
+            <a href="jeux-vidéos.html" class="category-card">
+                <img src="images/game-control.png" alt="Jeux-Vidéos">
+                <h3>Jeux-Vidéos</h3>
+                <p>Restez informés sur les rumeurs de sortie.</p>
+            </a>
+            
+            <!-- Carte Actu Mondiale -->
+            <a href="monde.html" class="category-card">
+                <img src="images/branch.png" alt="Actu Mondiale">
+                <h3>Actu Mondiale</h3>
+                <p>Actualités globales et événements internationaux.</p>
+            </a>
+        </section>
+    </main>
+
+    <!-- ========== PIED DE PAGE ========== -->
+    <footer>
+        <p>&copy; 2025 Worldigital. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+	<script src="recherche.js" defer></script>  <!-- Le fichier JS est bien lié -->
+	<form id="search-form">                <!-- ID doit matcher avec ton JS -->
+	<input type="text" id="search-input">  <!-- ID correct -->
+    
+    <!-- Librairie d'animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</body>
+</html>
