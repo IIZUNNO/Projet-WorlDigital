@@ -1,4 +1,6 @@
-📋 Description du Projet
+# Présnetation de WorlDigital
+
+## 📋 Description du Projet
 WorlDigital est un site web moderne et responsive qui regroupe les dernières actualités dans quatre domaines principaux :
 
 🎵 Musique - Actualités musicales, certifications, feats et dates d'album
@@ -9,7 +11,7 @@ WorlDigital est un site web moderne et responsive qui regroupe les dernières ac
 
 🌍 Actu Mondiale - Actualités internationales et événements mondiaux
 
-✨ Fonctionnalités
+## ✨ Fonctionnalités
 🎨 Design moderne avec thème sombre et effets néon
 
 📱 Interface responsive adaptée à tous les appareils
@@ -24,7 +26,7 @@ WorlDigital est un site web moderne et responsive qui regroupe les dernières ac
 
 🏷️ Structure sémantique HTML5
 
-🛠️ Technologies Utilisées
+## 🛠️🛠️ Technologies Utilisées
 Frontend : HTML5, CSS3, JavaScript
 
 Design : CSS Grid, Flexbox, Animations CSS
@@ -34,3 +36,11 @@ Icônes : Font Awesome 6
 Polices : Google Fonts (Orbitron, Montserrat)
 
 Responsive : Media Queries
+
+## 📥 Installation & Utilisation
+
+# 1. Cloner le dépôt
+git clone https://github.com/IIZUNNO/Projet-WorlDigital.git
+
+# 2. Ouvrir le fichier HTML
+open src/accueil.html
